@@ -1,0 +1,55 @@
+/* Shared Styles */
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Navigation Styles */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 50px 130px;
+}
+.nav-logo {
+    width: 48px;
+    height: 56.008px;
+    margin-right: 15px;
+    display: flex;
+}
+
+.nav-name {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav-name-color {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav-links {
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+ .nav-links a{
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+ }
