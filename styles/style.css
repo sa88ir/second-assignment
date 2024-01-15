@@ -9,12 +9,14 @@
     justify-content: space-between;
     text-decoration: none;
     margin: 50px 130px;
+    align-items: center;
 }
 .nav-logo {
     width: 48px;
     height: 56.008px;
     margin-right: 15px;
     display: flex;
+    align-items: center;
 }
 
 .nav-name {
