@@ -262,12 +262,84 @@
         font-family: Mulish;
         font-size: 28px;
     }
-    .hotel-service-container{
+
+    .hotel-service-container {
         flex-direction: column;
 
     }
-    .guarantee{
+
+    .guarantee {
         margin-left: auto;
         margin-top: 20px;
+    }
+
+    .Deals {
+        max-width: 1200px;
+        margin: 0 auto;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 50px;
+
+    }
+
+    .Deals h2 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 40px;
+    }
+
+    .Deals .img-1 {
+        /* margin: 0 auto; */
+        background-image: url('../images/Group-39.png');
+        border-radius: 16px;
+        width: 580px;
+        height: 400px;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+    .txt-con-1 {
+        width: 303px;
+        height: 297px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        margin-right: 1000px;
+        margin-left: 100px;
+        margin-top: 50px;
+        padding: 20px;
+        color: #131318;
+    }
+    .Deals .img-2 {
+        /* margin: 0 auto; */
+        background-image: url('../images/Group-40.png');
+        border-radius: 16px;
+        width: 580px;
+        height: 400px;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+
+    .txt-con-2 {
+        width: 303px;
+        height: 297px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-top: 50px;
+        padding: 20px;
+        color: #131318;
+    }
+
+    .price {
+        color: #FF5400;
     }
 }
