@@ -112,9 +112,10 @@
     align-items: center;
     text-align: center;
     border: 0;
-   
+
 }
-.banner-inputs select{
+
+.banner-inputs select {
     width: 174px;
     height: 52px;
     border-radius: 8px;
@@ -123,8 +124,28 @@
     align-items: center;
     text-align: center;
     border: 0;
-   
+
 }
+
+/* Popular Tour Styles */
+
+.Popular-Tours {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+
+.texts , .image {
+    width: 600px;
+    height: 550px;
+    border-radius: 16px;
+    padding-left: 50px;
+
+}
+
 /* Responsive Styles */
 
 @media screen and (max-width:600px) {
@@ -148,10 +169,12 @@
         border-radius: 16px;
         background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/banner.png');
     }
+
     .banner h1 {
         padding-top: 10px;
         font-size: 32px;
     }
+
     .banner p {
         color: #FFF;
         text-align: center;
@@ -169,28 +192,30 @@
         align-items: center;
         text-align: center;
         border: 0;
-}
-.banner-inputs form input {
-    width: 174px;
-    height: 52px;
-    border-radius: 8px;
-    background: #FFF;
-    display: inline-flex;
-    align-items: center;
-    text-align: center;
-    border: 0;
+    }
 
-}
-.banner-inputs {
-    display: inline-flex;
-    padding: 16px;
-    margin-right: 20px;
-    margin-left: 20px;
-    align-items: flex-start;
-    gap: 24px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
+    .banner-inputs form input {
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FFF;
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+        border: 0;
 
-}
+    }
+
+    .banner-inputs {
+        display: inline-flex;
+        padding: 16px;
+        margin-right: 20px;
+        margin-left: 20px;
+        align-items: flex-start;
+        gap: 24px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+
+    }
 
 }
