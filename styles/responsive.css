@@ -76,6 +76,9 @@
         align-content: center;
         text-align: center;
     }
+    .Popular-Tours .texts{
+        margin-bottom: 30px;
+    }
 
     .Popular-Tours>image {
         width: 600px;
