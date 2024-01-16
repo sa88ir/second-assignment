@@ -131,6 +131,7 @@
 
 .Popular-Tours {
     display: flex;
+    flex-direction: row;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 50px;
@@ -138,13 +139,154 @@
     justify-content: space-evenly;
 }
 
-.texts , .image {
+.Popular-Tours .texts h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+}
+
+.image {
     width: 600px;
     height: 550px;
     border-radius: 16px;
     padding-left: 50px;
+    margin-top: 20px;
 
 }
+
+/* Destinations Style */
+
+.Destinations {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.Destinations>h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+}
+
+.first-line-1 {
+    display: inline-flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 16px;
+}
+
+.first-line-1 .text-1 {
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+
+}
+
+.first-line-2 .text-2 {
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+}
+
+.second-line-1 {
+    display: inline-flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 16px;
+}
+
+.second-line-1 .text-1 {
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+
+}
+
+.second-line-2 .text-2 {
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+}
+
+.second-line-3 .text-3 {
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+}
+
+.third-line-1 {
+    display: inline-flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 16px;
+}
+
+.third-line-1 .text-1 {
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+
+}
+
+.third-line-2 .text-2 {
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+}
+
 
 /* Responsive Styles */
 
@@ -163,8 +305,8 @@
     }
 
     .Banner-Section {
-        width: 335px;
-        height: 483px;
+        width: 600px;
+        height: 400px;
         flex-shrink: 0;
         border-radius: 16px;
         background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/banner.png');
@@ -216,6 +358,196 @@
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.30);
 
+    }
+
+    .Popular-Tours {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .Popular-Tours>image {
+        width: 600px;
+        height: 400px;
+        padding: 10px;
+    }
+
+    .Destinations {
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    .first-line-1 {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        position: relative;
+        border-radius: 16px;
+    }
+    .first-line-1 .text-1 {
+        position: absolute;
+        color: #FFF;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;
+
+    }
+
+    .first-line-2 {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        text-align: center;
+        position: relative;
+        border-radius: 16px;
+    }
+
+    .first-line-2 .text-2 {
+        position: absolute;
+        color: #FFF;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;
+
+
+
+    }
+
+    .second-line-1 {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        position: relative;
+        border-radius: 16px;
+    }
+
+    .second-line-1 .text-1 {
+        position: absolute;
+        color: #FFF;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;
+
+    }
+
+    .second-line-2 {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        text-align: center;
+        position: relative;
+        border-radius: 16px;
+    }
+    .second-line-2>img {
+        width: 600px;
+        height: 400px;
+    }
+
+    .second-line-2 .text-2 {
+        position: absolute;
+        color: #FFF;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;
+    }
+
+    .second-line-3 {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        position: relative;
+        border-radius: 16px;
+    }
+
+    .second-line-3>img {
+        width: 600px;
+        height: 400px;
+    }
+
+    .second-line-3 .text-3 {
+        position: absolute;
+        color: #FFF;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;
+    }
+
+    .third-line-1 {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        position: relative;
+        border-radius: 16px;
+    }
+
+    .third-line-1 .text-1 {
+        position: absolute;
+        color: #FFF;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;
+
+    }
+
+    .third-line-2 {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        text-align: center;
+        position: relative;
+        border-radius: 16px;
+    }
+    .third-line-2>img {
+        width: 600px;
+        height: 400px;
+    }
+
+    .third-line-2 .text-2 {
+        position: absolute;
+        color: #FFF;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;
     }
 
 }
