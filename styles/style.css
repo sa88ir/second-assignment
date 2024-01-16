@@ -354,3 +354,48 @@
     margin-left: 350px;
 }
 
+.Deals {
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+
+.Deals h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+}
+
+.Deals .img-1 {
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    background-image: url('../images/Group-39.png');
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.txt-con {
+    width: 470px;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-left: 570px;
+    padding: 20px;
+    color: #131318;
+}
+.price{
+    color: #FF5400;
+}
